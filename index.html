@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navegación */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .hero a {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        /* Sección de Colecciones */
+        .collections {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .collections h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .collection-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .collection-item {
+            width: 30%;
+            margin-bottom: 30px;
+        }
+
+        .collection-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Colecciones</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Bienvenidos a Fashion Store</h1>
+        <p>Descubre las últimas tendencias en moda</p>
+        <a href="#">Ver Colección</a>
+    </section>
+
+    <!-- Sección de Colecciones -->
+    <section class="collections">
+        <h2>Nuestras Colecciones</h2>
+        <div class="collection-items">
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/500x500" alt="Colección 1">
+                <h3>Colección Verano</h3>
+            </div>
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/500x500" alt="Colección 2">
+                <h3>Colección Invierno</h3>
+            </div>
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/500x500" alt="Colección 3">
+                <h3>Colección Otoño</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fashion Store. Todos los derechos reservados.</p>
+        <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a></p>
+    </footer>
+</body>
+</html>
